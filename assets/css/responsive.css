@@ -1,0 +1,18 @@
+@font-face{
+	font-family: ahamono;
+	src: url("../fonts/AHAMONO-Regular.otf");
+}
+
+@font-face{
+	font-family: simplifica;
+	src: url("../fonts/SIMPLIFICA-Typeface.ttf");
+}
+
+.aha h1 {
+	font-family: ahamono;
+}
+
+.simp h1 {
+	font-family: simplifica;
+	letter-spacing: 3px;
+}

@@ -1,0 +1,62 @@
+@font-face{
+	font-family: MB;
+	src: url("../fonts/Montserrat-Black.ttf");
+}
+
+@font-face{
+	font-family: ML;
+	src: url("../fonts/Montserrat-Light.ttf");
+}
+
+
+h1 {
+	font-family: MB;
+	letter-spacing: 0px;
+}
+
+.main-wrapper{
+
+	background: url(../img/bg.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	height: 100vh;
+  box-sizing: border-box;
+}
+
+
+.main-title {
+  position: absolute;
+	padding-top: 30%;
+  width: 300px;
+	left: 50%;
+  margin-left: -150px;
+  text-align: center;
+	color: white;
+}
+
+.logo{
+    padding-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 500px;
+    width: 35%;
+
+
+}
+
+.wrapper-lg {
+    max-width: 960px;
+    margin: 90px auto;
+}
+
+.wrapper-md {
+    max-width: 960px;
+    margin: 50px auto;
+}
+
+.wrapper-sm {
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+
